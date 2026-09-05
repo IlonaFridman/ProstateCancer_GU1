@@ -109,7 +109,7 @@
 </head>
 <body>
 <!-- Botón Inicio -->
-<a class="home-link" href="https://ilonafridman.github.io/home.html" aria-label="Ir a Inicio">
+<a class="home-link" href="../home.html" aria-label="Ir a Inicio">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.1 2.5 10.1a1 1 0 0 0-.4.8v9a1 1 0 0 0 1 1H9a1 1 0 0 0 1-1v-5h4v5a1 1 0 0 0 1 1h5.9a1 1 0 0 0 1-1v-9a1 1 0 0 0-.4-.8L12 3.1z"/></svg>
 </a>
 
@@ -125,14 +125,14 @@
     </div>
 
     <aside class="side" aria-label="Acciones">
-      <a id="cta-questions" class="cta" href="https://ilonafridman.github.io/diagnosis/diagnosis.html">Preguntas para hacer</a>
-      <!-- NOTA: por solicitud, usar la ruta *mal escrita* 'daignosisinfo.html' -->
-      <a id="cta-helpful"   class="cta" href="https://ilonafridman.github.io/diagnosis/daignosisinfo.html">Información útil</a>
-      <a id="cta-resources" class="cta" href="https://ilonafridman.github.io/diagnosis/diagnosisresources.html">Recursos para explorar</a>
+      <a id="cta-questions" class="cta" href="diagnosis.html">Preguntas para hacer</a>
+      <!-- NOTA: por solicitud, usar la ruta *mal escrita* 'diagnosisinfo.html' -->
+      <a id="cta-helpful"   class="cta" href="diagnosisinfo.html">Información útil</a>
+      <a id="cta-resources" class="cta" href="diagnosisresources.html">Recursos para explorar</a>
 
       <div class="pic-wrap">
         <img class="pic"
-             src="https://ilonafridman.github.io/diagnosis/Patient%20and%20a%20doctor.png"
+             src="Patient%20and%20a%20doctor.png"
              alt="Paciente hablando con un médico" />
       </div>
     </aside>
@@ -292,7 +292,7 @@
 
     if (href.includes('diagnosisresources.html')) {
       r.classList.add('active'); r.setAttribute('aria-current','page');
-    } else if (href.includes('diagnosisinfo.html') || href.includes('daignosisinfo.html')) {
+    } else if (href.includes('diagnosisinfo.html') || href.includes('diagnosisinfo.html')) {
       h.classList.add('active'); h.setAttribute('aria-current','page');
     } else {
       q.classList.add('active'); q.setAttribute('aria-current','page');

@@ -94,7 +94,7 @@
 </head>
 <body>
   <!-- Home button -->
-  <a class="home-link" href="https://ilonafridman.github.io/home.html" aria-label="Go to Home">
+  <a class="home-link" href="home.html" aria-label="Go to Home">
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.1 2.5 10.1a1 1 0 0 0-.4.8v9a1 1 0 0 0 1 1H9a1 1 0 0 0 1-1v-5h4v5a1 1 0 0 0 1 1h5.9a1 1 0 0 0 1-1v-9a1 1 0 0 0-.4-.8L12 3.1z"/></svg>
   </a>
 
@@ -161,13 +161,13 @@
 
       <!-- RIGHT: Nav buttons + image -->
       <aside class="side" aria-label="Actions">
-        <a id="cta-questions"  class="cta" href="https://ilonafridman.github.io/diagnosis/diagnosis.html">Questions to ask</a>
-        <!-- NOTE: keep the spelled path 'daignosisinfo.html' to match other page -->
-        <a id="cta-helpful"    class="cta" href="https://ilonafridman.github.io/diagnosis/daignosisinfo.html">Helpful Information</a>
-        <a id="cta-resources"  class="cta" href="https://ilonafridman.github.io/diagnosis/diagnosisresources.html">Resources to explore</a>
+        <a id="cta-questions"  class="cta" href="diagnosis/diagnosis.html">Questions to ask</a>
+        <!-- NOTE: keep the spelled path 'diagnosisinfo.html' to match other page -->
+        <a id="cta-helpful"    class="cta" href="diagnosis/diagnosisinfo.html">Helpful Information</a>
+        <a id="cta-resources"  class="cta" href="diagnosis/diagnosisresources.html">Resources to explore</a>
 
         <div class="pic-wrap">
-          <img class="pic" src="https://ilonafridman.github.io/diagnosis/Team.jpg" alt="Clinical team of healthcare professionals" />
+          <img class="pic" src="diagnosis/Team.jpg" alt="Clinical team of healthcare professionals" />
         </div>
       </aside>
     </section>
@@ -184,7 +184,7 @@
 
       if (href.includes('diagnosisresources.html')) {
         r.classList.add('active'); r.setAttribute('aria-current','page');
-      } else if (href.includes('diagnosisinfo.html') || href.includes('daignosisinfo.html')) {
+      } else if (href.includes('diagnosisinfo.html') || href.includes('diagnosisinfo.html')) {
         h.classList.add('active'); h.setAttribute('aria-current','page');
       } else {
         q.classList.add('active'); q.setAttribute('aria-current','page');
